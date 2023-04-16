@@ -1,0 +1,529 @@
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('replace: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 40, in process_java
+    os.replace(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: replace: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('replace: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 41, in process_java
+    os.replace(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: replace: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('rename: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 41, in process_java
+    os.rename(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: rename: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('rename: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 41, in process_java
+    os.rename(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: rename: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('rename: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 41, in process_java
+    os.rename(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: rename: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('replace: src should be string, bytes or os.PathLike, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 41, in process_java
+    os.replace(file, 'src/main/java/com/play/Optimizer.java')
+TypeError: replace: src should be string, bytes or os.PathLike, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('expected str, bytes or os.PathLike object, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 43, in process_java
+    file1 = open(file, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('expected str, bytes or os.PathLike object, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 43, in process_java
+    file1 = open(file, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('expected str, bytes or os.PathLike object, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 43, in process_java
+    file1 = open(file, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('expected str, bytes or os.PathLike object, not BufferedWriter')>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 43, in process_java
+    file1 = open(file, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not BufferedWriter
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 88, in <module>
+    executor.start_polling(dp, skip_updates=True)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 43, in process_java
+    file1 = open(file, 'r')
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1160, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1175, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 56, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 578, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\repos\Lab_Smart_Ant_Checker\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 56, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OSError(8, '%1 не является приложением Win32', None, 193, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 не является приложением Win32
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 578, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:/Users/z.kate/source/javaRepos/AntGame/main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 578, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'PIPE' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test, stdout=PIPE, stderr=PIPE)
+NameError: name 'PIPE' is not defined
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'PIPE' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test, stdout=PIPE, stderr=PIPE)
+NameError: name 'PIPE' is not defined
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'p' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 56, in process_java
+    out, err = p.communicate()
+NameError: name 'p' is not defined
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 47, in process_java
+    p_jar = subprocess.Popen(run_test)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: SmartAntChecker [@SmartAntChecker_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'Не удается найти указанный файл', None, 2, None)>
+Traceback (most recent call last):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\z.kate\source\GitHubRepos\TelegramBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\z.kate\source\javaRepos\AntGame\main.py", line 51, in process_java
+    p_compile = subprocess.Popen(compile_command, cwd=maven_project_path)
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\z.kate\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1438, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
