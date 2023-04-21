@@ -37,7 +37,6 @@ async def process_java(message: types.Message):
         return
 
     file = await message.document.download()
-    print(file)
     file1 = open(file.name, 'r')
     file2 = open('src/main/java/com/play/Optimizer.java', 'w')
     file2.write(file1.read())
@@ -46,6 +45,7 @@ async def process_java(message: types.Message):
     run_test = ['mvn', 'clean', 'test']
     p_jar = subprocess.Popen(run_test)
     p_jar.wait()
+    print("hahaha")
     if os.path.isfile('target/results.out'):
         with open("target/results.out", "r") as score_file:
             score_file_text = score_file.read()
