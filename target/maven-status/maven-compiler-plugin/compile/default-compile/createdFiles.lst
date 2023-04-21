@@ -1,0 +1,10 @@
+com\play\Main.class
+com\game\GameField$Direction.class
+com\play\Optimizer.class
+com\game\Ant.class
+com\game\Ant$State.class
+com\play\Evolution.class
+com\game\GameField$1.class
+com\game\GameField$Cell.class
+com\game\Ant$Action.class
+com\game\GameField.class
