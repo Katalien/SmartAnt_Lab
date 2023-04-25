@@ -32,7 +32,10 @@ public class Optimizer {
         }
 
         for (int i = 0; i < ITERATIONS; i++) {
-           
+            // Возможный вариант реализации:
+            // Проведите несколько мутаций с каждой особью
+            // Сделайте селекцию
+            // Сделайте кроссовер
         }
 
         population = evolution.select(population);

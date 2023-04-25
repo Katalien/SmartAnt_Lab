@@ -11,18 +11,22 @@ dp = Dispatcher(bot)
 # logging.basicConfig(filename='.log', encoding='utf-8', level=logging.INFO)
 con = sqlite3.connect('results.db')
 cur = con.cursor()
-cur.execute('DROP TABLE results')
-cur.execute('CREATE TABLE results (surname TEXT, name TEXT, group_num INTEGER, score INTEGER, ass INTEGER)')
+# cur.execute('DROP TABLE results')
+# cur.execute('CREATE TABLE results (name_group TEXT, score INTEGER, ass INTEGER)')
 
-#
+@dp.message_handler(commands=['start'])
+async def start_command(message: types.Message):
+    meet_message = "Привет! Я буду проверять твой код во время лабораторной работы.\nОтправь мне файл Optimizer.java, добавь подпись в формате 'Фамилия Имя Группа' и жди результат.\n Желаю удачи! "
+    await bot.send_message(chat_id=message.from_user.id, text=meet_message)
+
 @dp.message_handler(content_types=types.ContentType.ANY)
 async def process_java(message: types.Message):
     print("hui")
-    if message.document:
-        print("I an in procces_Java")
-    surname, name, group = message.caption.split(" ")
+    if message.caption == None:
+        await bot.send_message(chat_id=message.from_user.id, text="Укажи фимилию, имя и группу в подписи к файлу. Отправь файл заново с правильной подписью")
+        return
+    name_group = message.caption
     await bot.send_message(chat_id=message.from_user.id, text="Файл получил. Он в очереди на оценку, жди.")
-    print(surname, name, group)
     file_id = message.document.file_id
     file = await bot.get_file(file_id)
     filename = message.document.file_name
@@ -30,7 +34,6 @@ async def process_java(message: types.Message):
     if extension != 'java' or filename.split('.')[0] != 'Optimizer':
         await bot.send_message(chat_id=message.from_user.id, text="Не тот файл. Нужен файл Optimizer.java")
         return
-
     file = await message.document.download()
     file1 = open(file.name, 'r')
     file2 = open('src/main/java/com/play/Optimizer.java', 'w')
@@ -47,32 +50,27 @@ async def process_java(message: types.Message):
             score_file_text = score_file.read()
         # если строка пустая, то сообщение пользователю
         if score_file_text == '':
-            await message.answer("Time limit exceeded. Please optimize your code and try again.")
+            await message.answer("Упс...В твоем коде есть ошибка или он превышает время выполнения. Перепроверь и отправь заново.")
             return
         # если строка не пустая, то записать результат в таблицу
         else:
             res = int(score_file_text)
             ass = res  # TODO: assessment formula
-            ans = cur.execute(f'SELECT * FROM results WHERE surname = ? AND name = ? AND group_num = ?',
-                              (surname, name, group)).fetchall()
+            ans = cur.execute(f'SELECT * FROM results WHERE name_group = ?',
+                              (name_group,)).fetchall()
             if not ans:
-                cur.execute(f'INSERT INTO results VALUES(?, ?, ?, ?, ?)', (surname, name, group, res, ass))
+                cur.execute(f'INSERT INTO results VALUES(?, ?, ?)', (name_group, res, ass))
             else:
-                cur.execute(f'UPDATE results SET score = ?, ass = ? WHERE surname = ? AND name = ? AND group_num = ?',
-                            (res, ass, surname, name, group))
+                cur.execute(f'UPDATE results SET score = ?, ass = ? WHERE name_group = ?',
+                            (res, ass, name_group))
             con.commit()
-            logging.info(f'run {surname} project - {res} points')
-            await message.answer(f'Great! Your program compiled and ran successfully. You scored {res} points.')
+            logging.info(f'run {name_group} project - {res} points')
+            await message.answer(f'Молодец! Твоя программа прошла все тесты. Твой результат {res}.')
             return
 
-
 async def unknown(message: types.Message):
-    await message.answer("Sorry, I didn't understand that command.")
+    await message.answer("Прости, но я не знаю таких команд.")
 
-#
-# # dp.register_message_handler(start, commands=['start'])
-# # dp.register_message_handler(process_java, content_types=['document'])
-# # dp.register_message_handler(unknown, commands=['help', 'info'])
 #
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
